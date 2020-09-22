@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*-----------------------*/
+
+header{
+    padding: 40px 2%;
+    background: #F1F1F1;
+    text-align: center;
+}
+
+header h1{
+    color: rgb(170,170,170);
+    padding: 5px 0;
+}
+
+header .logoslogan{
+    float: left;
+}
+
+header .icons{
+    float: right;
+    padding: 10px 0 0 0;
+}
+
+header .iconhead{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+header p{
+    color: rgb(100,100,100);
+}
+
+/**/
+
+footer{
+    padding: 40px 2%;
+    background: rgb(200, 200, 200);
+    text-align: center;
+}
+
+footer p:nth-of-type(1){
+    color: rgb(100,100,100);
+    padding: 8px 0;
+}
+
+/****/
+
+.body{
+    padding: 80px 2%;
+}
+
+.body .content{
+    margin: 0 auto;
+}
+
+.body .picture{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.body .picture img{
+    float: right;
+    margin-right: 10%;
+    border: 10px solid rgb(200, 200, 200);
+}
+
+.body .text{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.body .text h1{
+    padding-top: 20%;
+    margin-left: 10%;
+    color: rgb(170,170,170);
+    margin-bottom: 10px;
+}
+
+.body .text p{
+    max-width: 270px;
+    text-align: justify;
+    margin-left: 10%;
+    color: rgb(100,100,100);
+    line-height: 19px;
+}
+
+.pilares{
+    padding: 80px 2%;
+    background-color: rgb(225,225,225);
+}
+
+.cabecalho{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.body .cabecalho h1{
+    font-size: 32px;
+}
+
+.pilares .cabecalho h1{
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(124, 153, 143);
+}
+
+.pilares .secaopilar{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.pilares .secaopilar img{
+    width: 52px;
+}
+
+.pilares .secaopilar p{
+    width: 200px;
+    margin-left: 79px;
+    text-align: center;
+}
+
+.pilares .secaopilar h2{
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.planos{
+    padding: 80px 2%;
+}
+
+.secaoplanos{
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(100,100,100);
+}
+
+.planos .content{
+    max-width: 900px;
+}
+
+.secaoplanos p{
+    padding: 30px;
+    padding-left: 25px;
+    width: 100%;
+}
+
+.secaoplanos h2{
+    padding-left: 15px;
+    width: 100%;
+}
+
+.planos .cabecalho h1{
+    font-size: 32px;
+}
